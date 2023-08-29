@@ -7,7 +7,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "NormKiwis",
+        "children": []
+      },
+      {
+        "name": "StronkKiwis",
+        "children": []
+      },
+      {
+        "name": "GODKIWIS",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "kiwi_e",
