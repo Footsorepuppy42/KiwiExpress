@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="kiwi_e"
+version="1.0.0"
+displayName="Kiwi Express"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Robin, MCreator"
+
+[[dependencies.kiwi_e]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.kiwi_e]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
