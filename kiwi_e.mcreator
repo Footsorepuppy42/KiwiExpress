@@ -1,6 +1,17 @@
 {
   "mod_elements": [
     {
+      "name": "KiwiExpress",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiwi_express",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
       "name": "KiwiFRUIT",
       "type": "item",
       "sortid": 2,
@@ -14,17 +25,6 @@
         ]
       },
       "path": "~/Items"
-    },
-    {
-      "name": "KiwiExpress",
-      "type": "tab",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "kiwi_express",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [],
@@ -39,11 +39,11 @@
     "name": "~",
     "children": [
       {
-        "name": "NormKiwis",
+        "name": "Items",
         "children": []
       },
       {
-        "name": "StronkKiwis",
+        "name": "NormKiwis",
         "children": []
       },
       {
@@ -51,7 +51,11 @@
         "children": []
       },
       {
-        "name": "Items",
+        "name": "StronkKiwis",
+        "children": []
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]
