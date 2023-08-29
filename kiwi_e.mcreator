@@ -19,6 +19,10 @@
       {
         "name": "GODKIWIS",
         "children": []
+      },
+      {
+        "name": "blocks",
+        "children": []
       }
     ]
   },
