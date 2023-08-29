@@ -31,6 +31,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.kiwie.init.KiwiEModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -48,6 +50,8 @@ public class KiwiEMod {
 	public KiwiEMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		KiwiEModItems.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

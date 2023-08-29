@@ -1,9 +1,39 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "KiwiFRUIT",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiwi_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kiwi_e/models/item/kiwi_fruit.json",
+          "src/main/java/net/mcreator/kiwie/item/KiwiFRUITItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "KiwiExpress",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kiwi_express",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.kiwi_e.kiwi_fruit": "Kiwi",
+      "item_group.kiwi_e.kiwi_express": "Kiwi Express"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -18,6 +48,10 @@
       },
       {
         "name": "GODKIWIS",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]
